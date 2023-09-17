@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nhat Phan | Front-end Developer</title>
+    <title>Nhat.dev</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;800&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <script src="script.js" defer></script>
 </head>
 <body>
+    <!-- NAVIGATION -->
     <header>
         <div class="logo">Nhat.dev</div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio/a></li>
+                <li><a href="#home-page">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
             </ul>
+        <div id="dark-mode">
+            <img src="sources/dark-mode.png" alt="Dark Mode icon">
+        </div>
         </nav>
     </header>
     <main>
@@ -24,7 +29,7 @@
         <div id="home-page">
             <div class="intro">
                 <h1 class="job-title">Front-End Web Developer</h1>
-                <span class="greeting">Hello, I'm Phan Xuan Nhat, a passionate Front-end Developer who loves creating amazing websites</span>
+                <span class="greeting">Hello, I'm Phan Xuan Nhat, a passionate Front-End Web Developer who loves creating amazing websites.</span>
                 <a href="www.linkedin.com/in/phan-xuân-nhất-0b7714212" target="_blank"><img src="sources/linkedin-icon.png" alt="linkedin icon"></a>
                 <a href="https://github.com/phanxuannhat30" target="_blank"><img src="sources/github-icon.png" alt="github icon"></a>
             </div>
@@ -35,60 +40,63 @@
 
         <!-- SKILLS -->
         <div id="skills">
-            <span>Skills</span>
-            <h2>My Skills</h2>
+            <span class="direct">Skills</span>
+            <h2 class="title">My Skills</h2>
             <div class="skill-container">
-                <div id="html-skill">
+                <div class="skill-box" id="html-skill">
                     <img src="sources/html-logo.png">
-                    <span>HTML</span>
+                    <span class="skill-text">HTML</span>
                 </div>
-                <div id="css-skill">
+                <div class="skill-box" id="css-skill">
                     <img src="sources/css-logo.png">
-                    <span>CSS</span>
+                    <span class="skill-text">CSS</span>
                 </div>
-                <div id="javascript-skill">
+                <div class="skill-box" id="javascript-skill">
                     <img src="sources/javascript-logo.png">
-                    <span>JavaScript</span>
+                    <span class="skill-text">JavaScript</span>
                 </div>
-                <div id="responsive-skill">
+                <div class="skill-box" id="responsive-skill">
                     <img src="sources/responsive-logo.png">
-                    <span>Responsive Design</span>
+                    <span class="skill-text">Responsive Design</span>
                 </div>
-                <div id="react-skill">
+                <div class="skill-box" id="react-skill">
                     <img src="sources/react-logo.png">
-                    <span>React</span>
+                    <span class="skill-text">React</span>
                 </div>
-                <div id="ux/ui-skill">
+                <div class="skill-box" id="ux-ui-skill">
                     <img src="sources/ux-ui-logo.png">
-                    <span>UX/UI Design</span>
+                    <span class="skill-text">UX/UI Design</span>
                 </div>
             </div>
         </div>
 
         <!-- ABOUT -->
         <div id="about">
-            <img src="sources/me.jpg" alt="Picture of me">
+            <span class="direct">About Me</span>
+            <h2 class="title">Get To Know Me</h2>
             <div class="about-details">
-                <span>About Me</span>
-                <h2>Get To Know Me</h2>
+                <img src="sources/me.jpg" alt="Picture of me">
                 <p>With a strong love for design and a knack for coding, I've dedicated countless hours to honing my skills and staying at the forefront of web development trends. My goal is to craft visually stunning, user-friendly websites that not only meet but exceed expectations. When I'm not immersed in lines of code, you'll find me exploring the latest design trends, sipping on coffee, and seeking inspiration from the world around me. </p>
             </div>
         </div>
 
         <!-- PORTFOLIO -->
         <div id="portfolio">
-            <span>Portfolio</span>
-            <h2>My Portfolio</h2>
+            <span class="direct">Portfolio</span>
+            <h2 class="title">My Portfolio</h2>
             <div class="portfolio-container">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div class="projects"></div>
+                <div class="projects"></div>
+                <div class="projects"></div>
+                <div class="projects"></div>
             </div>
         </div>
-    </main>
-    <footer>
 
-    </footer>
+        <!-- Footer -->
+        <footer>
+            <span class="copyright">©2023 Phan Xuan Nhat | All Rights Reserved</span>
+        </footer>
+    </main>
 </body>
+<br>
 </html>

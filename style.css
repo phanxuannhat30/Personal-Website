@@ -1,0 +1,226 @@
+/* Global */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+/* Navigation bar */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 4rem;
+    top: 0;
+    box-shadow: 0.1px 0.1px 4px;
+    background-color: white;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 15%;
+}
+
+nav {
+    margin-right: 12%;
+}
+
+nav ul {
+    text-decoration: none;
+    display: inline-block;   
+}
+
+#dark-mode {
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    top: 0.5rem;
+    right: -2rem;
+    display: inline-block;
+}
+
+nav img {
+    width: 100%;
+    height: 100%;
+}
+
+#dark-mode:hover {
+    cursor: pointer;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 18px;
+}
+
+
+nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: black;
+}
+
+nav a:hover {
+    color: #24e640;
+}
+
+/* Main */
+.direct {
+    color: #24e640;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+#skills, #about, #portfolio {
+    text-align: center;
+    height: 100vh;
+    display: block;
+}
+
+
+/* Home */
+#home-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.intro {
+    display: inline-block;
+    width: 30rem;
+    margin-left: 15%;
+}
+
+.intro .job-title {
+    font-weight: bolder;
+    font-size: 4rem;
+    margin-bottom: 0.9rem;
+}
+
+.intro .greeting {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.5;
+    display: block;
+}
+
+.intro img {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.profile-picture {
+    width: 25rem;
+    height: 30rem;
+    margin-right: 20%;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 20px;
+    border: 1.5px solid black;
+}
+
+/* Skill */
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-box {
+    border: 2px solid #cfc9c7;
+    border-radius: 15px;
+    width: 27rem;
+    height: 15rem;
+    background-color: white;
+}
+
+.skill-box img {
+    display: block;
+    width: 7rem;
+    height: 7rem;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#javascript-skill img {
+    width: 5rem;
+    height: 5rem;
+}
+
+#react-skill img {
+    width: 6rem;
+    height: 5rem;
+}
+
+#ux-ui-skill img {
+    width: 14rem;
+}
+
+
+/* About */
+.about-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-details img {
+    width: 40rem;
+    height: 50rem;
+    margin-left: 15%;
+}
+
+.about-details p {
+    width: 40rem;
+    height: 20rem;
+    margin-right: 13%;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    font-weight: 500;
+    word-spacing: 2px;
+    text-align: justify;
+}
+
+/* Portfolio */
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+}
